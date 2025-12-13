@@ -156,7 +156,7 @@ Automatically pre-checked consent checkbox forces users to agree to data process
 
 **Screenshot:**
 <!-- Add image URL here -->
-![IndiGo Pre-checked Checkbox](Project%20Results/Indigo.png)
+![IndiGo Pre-checked Checkbox](working-extension/Project%20Results/Indigo.png)
 
 *Caption: Pre-checked consent checkbox on IndiGo booking page that automatically opts users into data processing without explicit consent.*
 
@@ -173,7 +173,7 @@ Artificial scarcity and time-based pressure tactics ("limited stock", "price wil
 
 **Screenshot:**
 <!-- Add image URL here -->
-![Joom Urgency Pattern](Project%20Results/Joom.png)
+![Joom Urgency Pattern](working-extension/Project%20Results/Joom.png)
 
 *Caption: Countdown timer and limited stock messaging on Joom product page creating artificial urgency.*
 
@@ -190,11 +190,11 @@ Checkboxes are automatically checked before user interaction, obscuring consent 
 
 **Screenshots:**
 <!-- Add image URLs here -->
-![LinkedIn AI Training Consent 1](Project%20Results/Linkdn.png)
+![LinkedIn AI Training Consent 1](working-extension/Project%20Results/Linkdn.png)
 
 *Caption: Pre-checked checkbox for AI training data usage on LinkedIn settings page.*
 
-![LinkedIn AI Training Consent 2](Project%20Results/Linkdn1.png)
+![LinkedIn AI Training Consent 2](working-extension/Project%20Results/Linkdn1.png)
 
 *Caption: DOM inspection revealing automatically checked consent options for data processing.*
 
@@ -211,7 +211,7 @@ Marketing opt-in is enabled by default using obfuscated identifiers, reducing tr
 
 **Screenshot:**
 <!-- Add image URL here -->
-![Mailchimp Opt-In Pattern](Project%20Results/malchimp.png)
+![Mailchimp Opt-In Pattern](working-extension/Project%20Results/malchimp.png)
 
 *Caption: Obfuscated marketing opt-in checkbox with unclear identifiers on Mailchimp signup form.*
 
@@ -228,7 +228,7 @@ Exaggerated low-stock indicators and sales counters create a false sense of urge
 
 **Screenshot:**
 <!-- Add image URL here -->
-![Temu Scarcity Pattern](Project%20Results/temu.png)
+![Temu Scarcity Pattern](working-extension/Project%20Results/temu.png)
 
 *Caption: Fake scarcity indicators showing "Only X left" and exaggerated sales counters on Temu product page.*
 
@@ -245,7 +245,7 @@ Real-time purchase popups ("Someone from India purchased…") leverage peer pres
 
 **Screenshot:**
 <!-- Add image URL here -->
-![ThreadShade Social Proof](Project%20Results/Threadshade.png)
+![ThreadShade Social Proof](working-extension/Project%20Results/Threadshade.png)
 
 *Caption: Fake purchase notification popup showing fabricated purchase activity to create false social proof on ThreadShade.*
 
