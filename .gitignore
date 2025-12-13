@@ -26,7 +26,8 @@ lerna-debug.log*
 # ============================================
 # Python virtual environments and cache
 # ============================================
-
+.venv/
+venv/
 env/
 ENV/
 __pycache__/
