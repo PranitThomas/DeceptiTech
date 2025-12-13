@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "DeceptiTech - Dark Pattern Detector",
+  "version": "1.0.0",
+  "description": "Advanced dark pattern detection using AI and heuristics. Scans web pages for deceptive UI patterns and provides detailed analysis.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*",
+        "data/*",
+        "*.js",
+        "*.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DeceptiTech Scanner"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Forced Action": {
+    "detailed": "Forced Action patterns compel users to take actions they don't want to take. This includes requiring account creation to view prices, forcing users to share personal information to access content, or blocking essential functionality until users complete unrelated actions. These patterns remove user autonomy and create barriers to accessing information or services.",
+    "examples": [
+      "Must create account to view prices",
+      "Sign up required to continue",
+      "Complete survey to access content"
+    ]
+  },
+  "Misdirection": {
+    "detailed": "Misdirection patterns use visual design and language to steer users toward choices that benefit the company rather than the user. This includes making the desired action (like accepting marketing) visually prominent while making the decline option hard to find, using confusing button labels, or hiding important information in small text. The goal is to make users accidentally choose options they wouldn't normally select.",
+    "examples": [
+      "Primary action styled to accept marketing",
+      "Decline button is low-contrast link",
+      "Confusing opt-out language"
+    ]
+  },
+  "Urgency": {
+    "detailed": "Urgency patterns create artificial time pressure to rush users into making decisions. This includes countdown timers, limited-time offers, 'expires soon' messaging, and statements like 'act fast' or 'don't miss out.' These tactics exploit fear of missing out (FOMO) to prevent users from taking time to consider their options carefully. Research shows that time pressure reduces decision quality and increases regret.",
+    "examples": [
+      "Countdown timer showing time remaining",
+      "Offer ends in 2 minutes",
+      "Limited time only - act now"
+    ]
+  },
+  "Scarcity": {
+    "detailed": "Scarcity patterns create false or exaggerated impressions of limited availability to increase perceived value and urgency. This includes showing low stock indicators ('only 3 left'), displaying how many people are viewing an item, or claiming exclusive availability. While some scarcity is legitimate, dark patterns often use fake or manipulated scarcity to pressure users into quick purchases without proper consideration.",
+    "examples": [
+      "Only 1 item left in stock",
+      "23 people viewing this right now",
+      "Exclusive offer for you"
+    ]
+  },
+  "Social Proof": {
+    "detailed": "Social Proof patterns use the behavior of others to influence user decisions, often in manipulative ways. This includes showing fake or exaggerated numbers of users, displaying fabricated reviews or testimonials, or using peer pressure tactics like '1,245 people purchased this today.' While legitimate social proof can be helpful, dark patterns use fabricated or misleading social signals to create false impressions of popularity or trustworthiness.",
+    "examples": [
+      "1,245 people purchased this today",
+      "Join 50,000+ satisfied customers",
+      "Most popular choice"
+    ]
+  },
+  "Obstruction": {
+    "detailed": "Obstruction patterns make it intentionally difficult for users to take actions they want to take, especially cancellation or opt-out. This includes requiring phone calls to cancel subscriptions, hiding cancellation options deep in settings, using confusing cancellation flows, or making it easier to upgrade than to cancel. These patterns create friction to prevent users from leaving services or stopping unwanted charges.",
+    "examples": [
+      "Cancel requires calling customer support",
+      "No online cancellation option",
+      "Hidden unsubscribe link"
+    ]
+  },
+  "Sneaking": {
+    "detailed": "Sneaking patterns hide or obscure important information, costs, or actions from users. This includes pre-checked boxes for add-ons, hidden fees revealed only at checkout, auto-renewal terms buried in fine print, or adding items to cart without clear consent. These patterns rely on users not noticing or understanding what they're agreeing to, leading to unwanted charges or commitments.",
+    "examples": [
+      "Extra protection plan preselected",
+      "Hidden fees added at checkout",
+      "Auto-renewal enabled by default"
+    ]
+  },
+  "Not Dark Pattern": {
+    "detailed": "This category represents good design practices that are transparent, user-friendly, and ethical. Examples include clear pricing displayed upfront, easy-to-find cancellation options, transparent terms and conditions, and honest communication. These patterns help build trust and provide positive user experiences without manipulation.",
+    "examples": [
+      "Transparent pricing shown upfront",
+      "Clear cancellation process",
+      "Honest product descriptions"
+    ]
+  }
+}
+

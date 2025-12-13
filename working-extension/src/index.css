@@ -1,0 +1,45 @@
+/* DeceptiTech Extension Styles */
+:root {
+  --primary: #4a90e2;
+  --primary-dark: #357abd;
+  --secondary: #6366f1;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --bg: #ffffff;
+  --bg-secondary: #f9fafb;
+  --border: #e5e7eb;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] {
+  --text: #f9fafb;
+  --text-light: #d1d5db;
+  --bg: #111827;
+  --bg-secondary: #1f2937;
+  --border: #374151;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --shadow-lg: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.deceptitech-root {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}

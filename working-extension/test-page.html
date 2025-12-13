@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeceptiTech Test Page - Dark Patterns</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4a90e2;
+        }
+        .pattern-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+        .pattern-title {
+            color: #4a90e2;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .urgency { border-left: 4px solid #ef4444; }
+        .scarcity { border-left: 4px solid #4a90e2; }
+        .social-proof { border-left: 4px solid #6366f1; }
+        .forced-action { border-left: 4px solid #f97316; }
+        .misdirection { border-left: 4px solid #f59e0b; }
+        .sneaking { border-left: 4px solid #a855f7; }
+        .obstruction { border-left: 4px solid #a3a3a3; }
+        
+        .countdown {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .stock-warning {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 8px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .social-counter {
+            background: #e0e7ff;
+            color: #3730a3;
+            padding: 8px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .hidden-checkbox {
+            display: none;
+        }
+        .premium-option {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .premium-option input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .premium-option input[type="checkbox"]:checked {
+            background: #4a90e2;
+        }
+        .cancel-info {
+            background: #f9fafb;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .cta-button {
+            background: linear-gradient(135deg, #4a90e2, #9b51e0);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px 0;
+            width: 100%;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+        }
+        .decline-link {
+            color: #6b7280;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .decline-link:hover {
+            color: #374151;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ DeceptiTech Test Page</h1>
+            <p>This page contains various dark patterns for testing the extension</p>
+        </div>
+
+        <!-- Urgency Pattern -->
+        <div class="pattern-section urgency">
+            <div class="pattern-title">⏰ Urgency Pattern</div>
+            <div class="countdown">
+                ⚠️ LIMITED TIME OFFER! Only 2 minutes left to save 50%!
+            </div>
+            <p>Don't miss out on this incredible deal! Act fast before it's gone forever!</p>
+            <button class="cta-button">CLAIM YOUR DISCOUNT NOW!</button>
+        </div>
+
+        <!-- Scarcity Pattern -->
+        <div class="pattern-section scarcity">
+            <div class="pattern-title">📦 Scarcity Pattern</div>
+            <div class="stock-warning">
+                ⚠️ Only 3 items left in stock! 47 people are viewing this right now!
+            </div>
+            <p>This popular item is selling fast. Get yours before it's too late!</p>
+            <button class="cta-button">BUY NOW - LIMITED STOCK!</button>
+        </div>
+
+        <!-- Social Proof Pattern -->
+        <div class="pattern-section social-proof">
+            <div class="pattern-title">👥 Social Proof Pattern</div>
+            <div class="social-counter">
+                🔥 1,247 people purchased this today! Join thousands of satisfied customers!
+            </div>
+            <p>See why everyone is choosing our premium service. Don't be left behind!</p>
+            <button class="cta-button">JOIN THE CROWD!</button>
+        </div>
+
+        <!-- Forced Action Pattern -->
+        <div class="pattern-section forced-action">
+            <div class="pattern-title">🚫 Forced Action Pattern</div>
+            <p>To view our exclusive deals, you must create an account first.</p>
+            <p><strong>You have no choice but to sign up to continue.</strong></p>
+            <button class="cta-button">CREATE ACCOUNT (REQUIRED)</button>
+        </div>
+
+        <!-- Misdirection Pattern -->
+        <div class="pattern-section misdirection">
+            <div class="pattern-title">🔄 Misdirection Pattern</div>
+            <p>Get our premium newsletter with exclusive content!</p>
+            <button class="cta-button">YES, SEND ME UPDATES!</button>
+            <a href="#" class="decline-link">No thanks, I'd rather not receive valuable content</a>
+        </div>
+
+        <!-- Sneaking Pattern -->
+        <div class="pattern-section sneaking">
+            <div class="pattern-title">👁️ Sneaking Pattern</div>
+            <div class="premium-option">
+                <input type="checkbox" id="premium" class="hidden-checkbox" checked>
+                <label for="premium">
+                    <strong>Premium Protection Plan</strong> - Auto-renewal enabled
+                    <br><small>Get 24/7 support and extended warranty</small>
+                </label>
+            </div>
+            <p>Your order includes our premium protection plan for just $9.99/month.</p>
+            <button class="cta-button">COMPLETE ORDER</button>
+        </div>
+
+        <!-- Obstruction Pattern -->
+        <div class="pattern-section obstruction">
+            <div class="pattern-title">🚧 Obstruction Pattern</div>
+            <p>Want to cancel your subscription?</p>
+            <div class="cancel-info">
+                To cancel, please call our customer support at 1-800-CANCEL-NOW 
+                (available Monday-Friday, 9 AM - 5 PM EST) or visit our office in person.
+                Online cancellation is not available for your protection.
+            </div>
+            <button class="cta-button">CONTINUE WITH SUBSCRIPTION</button>
+        </div>
+
+        <!-- Hidden Form Elements -->
+        <div class="pattern-section sneaking">
+            <div class="pattern-title">👁️ Hidden Form Elements</div>
+            <form>
+                <input type="text" placeholder="Your email" style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;">
+                <input type="hidden" name="marketing_consent" value="true">
+                <input type="hidden" name="data_sharing" value="true">
+                <input type="hidden" name="auto_renewal" value="true">
+                <button class="cta-button">SUBSCRIBE TO NEWSLETTER</button>
+            </form>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+            <p>This is a test page for the DeceptiTech browser extension.</p>
+            <p>Install the extension and click the scan button to detect these dark patterns!</p>
+        </div>
+    </div>
+
+    <script>
+        // Simulate countdown timer
+        function updateCountdown() {
+            const countdown = document.querySelector('.countdown');
+            if (countdown) {
+                const now = new Date();
+                const end = new Date(now.getTime() + 2 * 60 * 1000); // 2 minutes from now
+                const diff = end - now;
+                
+                if (diff > 0) {
+                    const minutes = Math.floor(diff / 60000);
+                    const seconds = Math.floor((diff % 60000) / 1000);
+                    countdown.innerHTML = `⚠️ LIMITED TIME OFFER! Only ${minutes}:${seconds.toString().padStart(2, '0')} left to save 50%!`;
+                } else {
+                    countdown.innerHTML = '⚠️ OFFER EXPIRED! But wait... we have another deal for you!';
+                }
+            }
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Simulate stock counter
+        function updateStock() {
+            const stock = document.querySelector('.stock-warning');
+            if (stock) {
+                const viewers = Math.floor(Math.random() * 20) + 30;
+                const items = Math.floor(Math.random() * 5) + 1;
+                stock.innerHTML = `⚠️ Only ${items} items left in stock! ${viewers} people are viewing this right now!`;
+            }
+        }
+        
+        setInterval(updateStock, 3000);
+        updateStock();
+    </script>
+</body>
+</html>
