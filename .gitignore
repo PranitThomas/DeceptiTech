@@ -1,0 +1,209 @@
+# ============================================
+# Root Level .gitignore
+# Include: ext-ui/ and working-extension/
+# Exclude: Other folders and common artifacts
+# ============================================
+
+# ============================================
+# Exclude other project folders
+# ============================================
+darkpattern-extension/
+checkpoint-1386/
+Commands.txt
+DeceptiTech_ALBERT_TESTING.ipynb
+
+# ============================================
+# Node.js dependencies (will be ignored in subfolders)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# ============================================
+# Python virtual environments and cache
+# ============================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist-packages/
+
+# ============================================
+# Build outputs and compiled files
+# ============================================
+dist/
+build/
+dist-ssr/
+*.log
+*.out
+*.tmp
+.cache/
+.parcel-cache/
+.vite/
+.next/
+out/
+
+# ============================================
+# IDE and Editor files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================================
+# OS generated files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================
+# Environment variables and secrets
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.cert
+secrets.json
+config.json
+
+# ============================================
+# Machine Learning / AI Model files
+# ============================================
+# Large model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+models/
+checkpoints/
+*.weights
+
+# ============================================
+# Testing and Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+.jest/
+
+# ============================================
+# Temporary files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+
+# ============================================
+# Database files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ============================================
+# Documentation builds
+# ============================================
+docs/_build/
+site/
+_site/
+
+# ============================================
+# Jupyter Notebook checkpoints
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Package manager lock files (optional - uncomment if you want to ignore)
+# ============================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# Keep these folders (explicitly include)
+# ============================================
+# ext-ui/ is included by default (not in exclude list)
+# working-extension/ is included by default (not in exclude list)
+
+# ============================================
+# But exclude build artifacts within those folders
+# ============================================
+# Note: These are handled by .gitignore files in each subfolder
+# but listed here for clarity
+
+# ext-ui/dist/ - handled by ext-ui/.gitignore
+# working-extension/dist/ - handled by working-extension/.gitignore
+# working-extension/node_modules/ - handled by working-extension/.gitignore
+# ext-ui/node_modules/ - handled by ext-ui/.gitignore
+
+# ============================================
+# Large dataset files (optional - uncomment if datasets are too large)
+# ============================================
+# *.csv
+# datasets/
+# data/raw/
+# data/processed/
+
+# ============================================
+# Keep important files in included folders
+# ============================================
+# These will be tracked:
+# !ext-ui/package.json
+# !ext-ui/README.md
+# !working-extension/package.json
+# !working-extension/README.md
+# !working-extension/manifest.json
+# !working-extension/requirements.txt
+
