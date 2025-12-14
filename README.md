@@ -742,11 +742,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Model Files & GitHub Limits
 
-Due to GitHub's file size limits, trained model files may not be included in this repository. The specific model used is **DeBERTa v2**, but the current implementation uses **Qwen2.5-1.5B-Instruct** via Ollama.
+Due to GitHub's file size limits, trained model files are not included in this repository. The specific model used was a combination of **DeBERTa v2** and **Qwen2.5-1.5B-Instruct** via Ollama.
 
-If you need to use DeBERTa v2 instead:
+In the event of any errors caused by the missing DeBERTa v2 model files:
 - Download or retrain the model locally
-- Update `nlp_service/server.py` to use DeBERTa instead of Ollama
+- Update `nlp_service/server.py`
 - Ensure model weights are in the `nlp_service` directory
 
 ### Privacy & Data
@@ -770,7 +770,5 @@ If you need to use DeBERTa v2 instead:
 **DeceptiTech** - Protecting users from deceptive web design patterns.
 
 Made with ❤️ for consumer protection and ethical design.
-
-[Report Bug](https://github.com/your-repo/issues) • [Request Feature](https://github.com/your-repo/issues) • [Documentation](https://github.com/your-repo/wiki)
 
 </div>
